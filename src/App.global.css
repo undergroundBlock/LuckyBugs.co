@@ -28,6 +28,7 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
+  font-family: "Quattrocento Sans", sans-serif;
 }
 
 h1 {
@@ -79,3 +80,6 @@ button:focus-visible {
     font-size: medium;
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Quattrocento+Sans&display=swap')

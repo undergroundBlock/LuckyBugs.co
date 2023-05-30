@@ -1,0 +1,26 @@
+.pspace {
+  margin-right: 56px;
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-end;
+}
+
+.cont {
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-end;
+}
+
+.btnCon{
+  margin-left: 10px;
+}
+
+
+/* @media only screen and (max-width: 600px) {
+  .pspaceb {
+    visibility: hidden;
+  }
+  .btnCon{
+    width: 50px;
+  }
+} */

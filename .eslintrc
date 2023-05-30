@@ -26,7 +26,7 @@
     ],
     "linebreak-style": [
         "error",
-        "unix"
+        "windows"
     ],
     "jsx-quotes": [
       "error",
@@ -53,4 +53,5 @@
     "semi": ["error", "never"],
     "quotes": ["error", "single", { "allowTemplateLiterals": true }]
   }
+  
 }
