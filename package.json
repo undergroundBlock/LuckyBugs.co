@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "preview": "vite preview",
     "lint": "eslint .",
     "lint:fix": "npm run lint --fix"
@@ -43,6 +45,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unused-imports": "^2.0.0",
+    "gh-pages": "^5.0.0",
     "typescript": "^5.0.4",
     "vite": "^4.2.0",
     "vite-tsconfig-paths": "^4.2.0"
@@ -55,5 +58,7 @@
       "not dead",
       "not op_mini all"
     ]
-  }
+  },
+  "homepage": "https://github.com/undergroundBlock/LuckyBugs.co"
+
 }

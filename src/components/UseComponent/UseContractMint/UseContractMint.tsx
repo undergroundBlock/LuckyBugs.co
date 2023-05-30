@@ -56,9 +56,6 @@ export const UseContractMint = (props: FunctionNameProps) => {
 
   return (
     <Box alignItems="center" textAlign="center">
-
-
-
       <Input
         type="text"
         placeholder="SDSD"
