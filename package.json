@@ -1,4 +1,5 @@
 {
+  "base": "/",
   "homepage": "https://luckybugs.co",
   "name": "mm-dapp-react",
   "private": true,
