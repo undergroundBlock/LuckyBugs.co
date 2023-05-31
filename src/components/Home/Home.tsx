@@ -1,6 +1,6 @@
 import { Box, Image, Text } from '@chakra-ui/react'
 import styles from './Home.module.css'
-import imageToAdd from '~/assets/images/mushroom.png'
+import imageToAdd from 'images/mushroom.png'
 import { EmailSubscriptionForm } from '~/components/EmailSubscriptionForm'
 import { MintComp } from './MintComp'
 
