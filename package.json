@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/undergroundBlock/LuckyBugs.co",
   "name": "mm-dapp-react",
   "private": true,
   "version": "0.0.0",
@@ -58,7 +59,6 @@
       "not dead",
       "not op_mini all"
     ]
-  },
-  "homepage": "https://github.com/undergroundBlock/LuckyBugs.co"
+  }
 
 }

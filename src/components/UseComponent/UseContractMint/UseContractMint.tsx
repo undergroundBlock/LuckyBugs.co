@@ -2,7 +2,7 @@ import { contractAddress, contractABI } from '~/hooks'
 import { useEffect, useState } from 'react'
 import { useContractRead, useContractWrite, usePrepareContractWrite, useWaitForTransaction } from 'wagmi'
 import { Box, Button, Input } from '@chakra-ui/react'
-import { parseEther, parseGwei } from 'viem'
+import { parseGwei } from 'viem' //parseEther,
 
 
 
