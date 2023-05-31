@@ -1,5 +1,4 @@
 import { Box, Image, Text } from '@chakra-ui/react'
-import styles from './Home.module.css'
 import imageToAdd from './mushroom.png'
 import { EmailSubscriptionForm } from '~/components/EmailSubscriptionForm'
 import { MintComp } from './MintComp'
@@ -16,7 +15,7 @@ export const Home = () => {
   return (
     <Box as="section" w="100%">
       <Box my="5" w="100%">
-        <Image className={styles.img} src={imageToAdd} alt="Image" />
+        <Image src={imageToAdd} alt="Image" />
       </Box>
 
       <Box>
