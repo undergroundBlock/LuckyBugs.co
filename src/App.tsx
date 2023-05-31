@@ -45,7 +45,5 @@ export const App = () => {
       {/* <Footer /> */}
     </Box>
   )
-}
-{/* <MetaMaskError /> */ }
-// </MetaMaskContextProvider>
 
+}
