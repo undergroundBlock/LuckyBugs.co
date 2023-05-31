@@ -1,12 +1,9 @@
 import './App.global.css'
-// import styles from './App.module.css'
 import { Navigation } from './components/Navigation'
 import { Home } from './components/Home'
 import { Marketplace } from './components/Marketplace'
 import { Roadmap } from './components/Roadmap'
 import { Whitepaper } from './components/Whitepaper'
-// import { Footer } from './components/Footer'
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Box, Grid, GridItem } from '@chakra-ui/react'
 import { Sidebar } from './components/Sidebar'
@@ -17,7 +14,6 @@ import { Lottery } from './components/Lottery'
 export const App = () => {
 
   return (
-    // <MetaMaskContextProvider>
     <Box>
       <BrowserRouter>
         <Grid templateColumns="repeat(6, 1fr)" bg="gray.300">
@@ -42,7 +38,6 @@ export const App = () => {
           </GridItem>
         </Grid>
       </BrowserRouter>
-      {/* <Footer /> */}
     </Box>
   )
 
