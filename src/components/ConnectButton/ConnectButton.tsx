@@ -61,22 +61,18 @@ export const ConnectButton = () => {
           disabled={!switchNetwork || x.id === chain?.id}
           key={x.id}
           onClick={() => switchNetwork?.(x.id)}
-        >
-          login with {x.name}
+        >Login with {x.name}
           {isLoading && pendingChainId === x.id && ' (switching)'}
         </button>
       ))}
-
       <Button ml="12px" colorScheme="purple" onClick={disconnectClick}>Logout from </Button>
-
-
     </Box>
   )
     : (
       <Box>
         {connectors.map((connector) => {
           const { id, name } = connector
-          return <Button colorScheme="purple" onClick={() => connectClick(connector)} key={id}> Login with {name}</Button>
+          return <Button colorScheme="purple" onClick={() => connectClick(connector)} key={id}>Login</Button>
         })}
       </Box>
     )
