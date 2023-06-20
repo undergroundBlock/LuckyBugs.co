@@ -12,7 +12,6 @@ type ticketProps = {
 
 export const MintComp = (props: ticketProps) => {
 
-
   const { data: useContractReadData, isError, isLoading } = useContractRead({
     address: contractAddress,
     abi: contractABI.abi,
@@ -28,18 +27,22 @@ export const MintComp = (props: ticketProps) => {
 
 
   return (
-
     <Box as="section" w="100%">
       <Card my="5" alignItems="left">
         <CardHeader>
           <Heading as="h3">{props.heading}</Heading>
         </CardHeader>
         <CardBody>
-          <Text>price: { }</Text>
-          <UseContractMint functionName="firstPurchaseTicket" />
+          <UseContractMint functionName="firstPurchaseTicket" /> {/* replace with mintTicket */}
+          <UseContractMint functionName="firstPurchaseTicket" /> {/* replace with mintTicket */}
         </CardBody>
         <CardFooter>
           <VStack alignItems="start">
+            <Text> free the world from slavery</Text>
+            <Text> create free bluprints for anyone to create free energy to sell it world wide</Text>
+            <Text>taxes and selling</Text>
+            <Text>auto sale price: lastPrice + ((lastPrice * 39) / 100)</Text>
+
             <Text>* All tickets are hijackable means they can be sold x2 floor price
               without your confirmation
             </Text>
